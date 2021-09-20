@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <RouteWithSubRoutes key={i} {...route} />
             ))}
           </Switch>
+          <Footer></Footer>
         </Router>
       </div>
       <div className="line top"></div>

@@ -1,3 +1,15 @@
+.Hero-Banner{
+    height: 100vh;
+    color: #f0f0f0;
+    .title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+}
 // Here's the meat and potatoes.
 /* Our mixin positions a copy of our text
 directly on our existing text, while

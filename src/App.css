@@ -6,10 +6,34 @@
   overflow: hidden;
   font-family: 'Roboto Mono', monospace;
 }
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
 .App-Container{
   position: relative;
   background-color: #31313a;
-  padding-top: 30px;
+  color: #a2a2a6;
+}
+.App-Footer {
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+}
+.App-Footer .copyright{
+  color: #fff;
+}
+.App-Footer .nav .nav-item a{
+  color: #fff;
 }
 .App-Header {
   position: fixed;
@@ -23,17 +47,6 @@
 }
 .App-Header a{
   color: #fff !important;
-}
-.Hero-Banner{
-  height: 100vh;
-}
-.Hero-Banner .title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
 }
 .line{
   position: fixed;
@@ -63,6 +76,6 @@
   height: 100vh;
   width: 30px;
 }
-.Hero-Banner {
-  color: #f0f0f0;
+.strong {
+  color: #f26b38;
 }

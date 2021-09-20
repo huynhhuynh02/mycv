@@ -1,0 +1,15 @@
+.service-item {
+    margin-bottom: 25px;
+    .icon{
+        color: #f26b38;
+        display: inline-block;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .name {
+        display: inline-block;
+    }
+    .text {
+        margin-top: 25px;
+    }
+}
