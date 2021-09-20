@@ -1,0 +1,19 @@
+.Title-Section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .title-large {
+        text-transform: uppercase;
+    }
+    .breadcrumb {
+        .breadcrumb-item {
+            a {
+                color: #fff !important;
+                text-decoration: none;
+            }
+        }
+    }
+}

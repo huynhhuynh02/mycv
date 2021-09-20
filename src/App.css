@@ -1,38 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&display=swap');
 .App {
+  background-color: #31313a;
+  margin: 0px 30px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+.App-Container{
+  position: relative;
+  background-color: #31313a;
+  padding-top: 30px;
+}
+.App-Header {
+  position: fixed;
+  left:0;
+  top: 30px;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar .navbar-nav .nav-item a{
+  padding: .5rem 1.2rem;
+}
+.App-Header a{
+  color: #fff !important;
+}
+.Hero-Banner{
+  height: 100vh;
+}
+.Hero-Banner .title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line{
+  position: fixed;
+  background-color: #31313a;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line.top{
+  top: 0px;
+  left: 0px;
+  height: 30px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.line.bottom{
+  bottom: 0px;
+  left: 0px;
+  height: 30px;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.line.left{
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line.right{
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 30px;
+}
+.Hero-Banner {
+  color: #f0f0f0;
 }
